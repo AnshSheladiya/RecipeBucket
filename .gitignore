@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules/
+ios/Pods/
+
+# Compiled files
+*.pbxproj
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace/
+*.xcuserdatad
+*.xcproj
+.DS_Store
+android/app/build/
+ios/build/
+ios/Pods/
+android/.gradle/
+android/local.properties
+npm-debug.log
+yarn-error.log
+# React Native related files/directories
+/node_modules
+npm-debug.log
+*.jks
+*.keystore
+android/app/build
+android/build
+ios/Pods
+ios/Podfile.lock
+ios/build
+ios/*.xcworkspace
+*.log
+*.orig
