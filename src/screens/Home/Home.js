@@ -2,6 +2,8 @@ import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import SearchBar from '../../layouts/SearchBar';
+import HomeSlider from '../../components/HomeSlider';
+import CategorySlider from '../../components/CategorySlider';
 
 const Home = () => {
   return (
@@ -11,6 +13,12 @@ const Home = () => {
       </View>
       <View>
         <SearchBar placeholder="Search recipes" />
+      </View>
+      <View>
+        <HomeSlider/>
+      </View>
+      <View>
+        <CategorySlider/>
       </View>
     </View>
   );
